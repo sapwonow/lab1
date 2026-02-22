@@ -3,8 +3,8 @@
 using namespace std;
 bool proverka(char a)
 {
-    char sagl[] = {'A', 'O', 'E', 'U', 'Y', 'I', 'a', 'o', 'e', 'u', 'y', 'i'};
-    bool result = true;
+    char sogl[] = {'A', 'O', 'E', 'U', 'Y', 'I', 'a', 'o', 'e', 'u', 'y', 'i'};
+    bool result = false;
     for(char i : sogl)
     if(i == a) result = true;
     return result;
@@ -22,4 +22,3 @@ int main()
     }
     cout << result;
 }
-teest
