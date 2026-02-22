@@ -3,7 +3,7 @@
 using namespace std;
 bool proverka(char a)
 {
-    char sogl[] = {'A', 'O', 'E', 'U', 'Y', 'I', 'a', 'o', 'e', 'u', 'y', 'i'};
+    char sagl[] = {'A', 'O', 'E', 'U', 'Y', 'I', 'a', 'o', 'e', 'u', 'y', 'i'};
     bool result = true;
     for(char i : sogl)
     if(i == a) result = true;
